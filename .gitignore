@@ -1,0 +1,15 @@
+# Compiled class files
+*.class
+
+# IDE settings
+.metadata/
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+
+# Build folders
+bin/
+out/
+target/
