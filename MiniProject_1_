@@ -1,19 +1,10 @@
 USE dvdvdeep;
 
 INSERT INTO customers VALUES (0 , 'ADMIN' , '010-6669-0166' );
-INSERT INTO customers VALUES (1 , '서수민' , '010-6666-1111' );
-
-
 INSERT INTO movies VALUES ( 0 , 'ADMIN' , 'ADMIN' , 0 );
-INSERT INTO movies VALUES ( 1 , 'Elemental' , 'Peter Son' , 400 );
-
-
 INSERT INTO orders VALUES ( 0 , 0 , 0 , 0 , '2025-01-01', '2025-01-02' );
-INSERT INTO orders VALUES ( 1 , 1 , 1 , 0 , '2025-10-10', null);
 
-
-INSERT INTO sales VALUES ( 0 , 1 , 400 , curdate());
-
+COMMIT;
 -- INSERT INTO customers VALUES
 -- (<{cust_id: }>,
 -- <{cust_name: }>,

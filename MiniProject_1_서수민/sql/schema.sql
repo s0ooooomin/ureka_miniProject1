@@ -25,3 +25,12 @@ CREATE TABLE `orders` (
   `returndate` date DEFAULT NULL,
   PRIMARY KEY (`order_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+salessalesCREATE TABLE sales (
+  sales_id int unsigned NOT NULL AUTO_INCREMENT,
+  saleprice int DEFAULT NULL,
+  returndate date DEFAULT NULL,
+  PRIMARY KEY (sales_id)
+);
+
+
